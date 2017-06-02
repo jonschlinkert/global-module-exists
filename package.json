@@ -1,0 +1,55 @@
+{
+  "name": "global-module-exists",
+  "description": "Returns true if a npm package exists in global node_modules.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/global-module-exists",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/global-module-exists",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/global-module-exists/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "global-modules": "^0.2.3"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^0.1.12",
+    "mocha": "^3.4.2",
+    "npm-install-global": "^1.0.0"
+  },
+  "keywords": [
+    "exists",
+    "global",
+    "module"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "global-modules",
+        "global-paths",
+        "npm-prefix"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
